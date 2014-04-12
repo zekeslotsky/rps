@@ -1,0 +1,27 @@
+body {
+	background-color: white;
+	font-size: 24px;
+	font-style: bold;
+	text-align: center;
+}
+
+div {display: inline-block;}
+
+div #rock {
+	width: 300px; height: 300px;
+	border: 100px solid white;
+	position: absolute;	
+	top: 50px; left:40px;
+	background-color: white;
+}
+
+img {
+	width: 300px; height: 300px;
+}
+
+@media screen and (max-width: 1000px){
+  img {
+	width: 160px; height: 160px;
+	}
+
+}
